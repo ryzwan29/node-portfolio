@@ -43,7 +43,7 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic Web Magic with Next.js
+            {/* Dynamic Web Magic with Next.js */}
           </p>
 
           {/**
@@ -51,13 +51,13 @@ const Hero = () => {
            *
            *  change md:text-6xl, add more responsive code
            */}
-          <TextGenerateEffect
-            words="Transforming Concepts into Seamless User Experiences"
-            className="text-center text-[40px] md:text-5xl lg:text-6xl"
-          />
+          <div className="flex flex-col items-center text-center">
+            <TextGenerateEffect words="Hi! I'am Ryddd" className="text-[40px] md:text-5xl lg:text-6xl -mb-5" />
+            <TextGenerateEffect words="A Blockchain Node Operator" className="text-[30px] md:text-4xl lg:text-5xl -mt-5" />
+          </div>
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Adrian, a Next.js Developer based in Croatia.
+            As a Blockchain Node Operator, I'am committed to enhancing the stability and security of blockchain networks by running reliable and efficient nodes. I actively support the development of a trusted, transparent, and innovative blockchain ecosystem, contributing to network sustainability through consistent participation and technical expertise.
           </p>
 
           <a href="#about">
