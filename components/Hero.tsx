@@ -52,12 +52,12 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
           <div className="flex flex-col items-center text-center">
-            <TextGenerateEffect words="Hi! I'am Ryddd" className="text-[40px] md:text-5xl lg:text-6xl -mb-5" />
+            <TextGenerateEffect words="Hi! I&apos;am Ryddd" className="text-[40px] md:text-5xl lg:text-6xl -mb-5" />
             <TextGenerateEffect words="A Blockchain Node Operator" className="text-[30px] md:text-4xl lg:text-5xl -mt-5" />
           </div>
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            As a Blockchain Node Operator, I'am committed to enhancing the stability and security of blockchain networks by running reliable and efficient nodes. I actively support the development of a trusted, transparent, and innovative blockchain ecosystem, contributing to network sustainability through consistent participation and technical expertise.
+            As a Blockchain Node Operator, I&apos;am committed to enhancing the stability and security of blockchain networks by running reliable and efficient nodes. I actively support the development of a trusted, transparent, and innovative blockchain ecosystem, contributing to network sustainability through consistent participation and technical expertise.
           </p>
 
           <a href="#about">
