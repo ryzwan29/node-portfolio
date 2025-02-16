@@ -15,9 +15,7 @@ const Approach = () => {
         <Card
           title="Planning & Strategy"
           icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          des="We develop a comprehensive strategy for deploying and maintaining a highly efficient validator node. This includes infrastructure planning, security hardening, network optimization, and compliance with protocol requirements. Our approach ensures maximum uptime, performance, and long-term sustainability within the blockchain ecosystem."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -26,11 +24,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
+          title="Development & Implementation"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          des="After finalizing the strategy, I focus on setting up and configuring the validator node. This includes deploying the necessary infrastructure, optimizing system performance, and implementing security measures to ensure network integrity. I follow best practices for node synchronization, data consistency, and fault tolerance to maintain a reliable and efficient operation within the blockchain ecosystem."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -48,11 +44,9 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Development & Launch"
+          title="Deployment & Monitoring"
           icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des="The validator node is set up and deployed with a focus on security, efficiency, and network compliance. Once operational, continuous monitoring ensures optimal performance, uptime, and responsiveness to network changes. Automated alerts and real-time analytics help detect and resolve potential issues, maintaining the integrity and reliability of the node within the blockchain ecosystem."
         >
           <CanvasRevealEffect
             animationSpeed={3}
