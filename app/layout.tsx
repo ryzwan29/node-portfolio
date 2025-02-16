@@ -7,7 +7,7 @@ import { ThemeProvider } from "./provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Ryddd29-Node",
+  title: "Ryddd",
   description: "A Portfolio Running Crypto Node",
 };
 
@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/jsm-logo.png" sizes="any" />
+        <link rel="icon" href="/ryddd-logo.png" sizes="any"/>
       </head>
       <body className={inter.className}>
         <ThemeProvider

@@ -8,8 +8,7 @@ const RecentProjects = () => {
   return (
     <div className="py-20">
       <h1 className="heading">
-        A small selection of{" "}
-        <span className="text-purple">recent projects</span>
+        My node validator<span className="text-purple"> projects</span>
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 p-4 mt-0">
         {projects.map((item) => (
@@ -45,9 +44,29 @@ const RecentProjects = () => {
                 <p
                   className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
                   style={{ color: "#BEC1DD", margin: "1vh 0" }}
-                ></p>
+                >
+                  {item.des}
+                </p>
                 <div className="flex items-center justify-between">
-                  <div className="flex justify-start items-center w-full">
+                  <div className="flex items-center gap-3">
+                    {item.iconLists?.map((icon, index) => (
+                    <div
+                      key={index}
+                      className="border border-white/[.2] rounded-full lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center overflow-hidden"
+                      style={{
+                        transform: `translateX(-${5 * index + 2}px)`,
+                      }}
+                    >
+                    <img
+                      src={icon}
+                      alt="icon"
+                      className="w-full h-full object-cover rounded-full"
+                    />
+                    </div>
+                    ))}
+                  </div>
+
+                  <div className="flex justify-start items-center w-full ml-4">
                     <p className="flex lg:text-xl md:text-xs text-sm text-purple">
                       See the node installation guide
                     </p>
