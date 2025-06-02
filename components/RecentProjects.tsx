@@ -6,7 +6,7 @@ import { PinContainer } from "./ui/Pin";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20">
+    <div className="py-20" id="projects">
       <h1 className="heading">
         My node validator<span className="text-purple"> projects</span>
       </h1>
