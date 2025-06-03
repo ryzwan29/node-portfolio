@@ -60,7 +60,7 @@ const Hero = () => {
             As a Blockchain Node Operator, I&apos;am committed to enhancing the stability and security of blockchain networks by running reliable and efficient nodes. I actively support the development of a trusted, transparent, and innovative blockchain ecosystem, contributing to network sustainability through consistent participation and technical expertise.
           </p>
 
-          <a href="#about">
+          <a href="#projects">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}
