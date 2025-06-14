@@ -67,7 +67,7 @@ const rightLists = ["DA Node", "Sentry Node", "Storage Node"];
   };
 
   const handleCopy = () => {
-    const text = "technical@provewithryd.xyz";
+    const text = "ryddd29@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
   };
