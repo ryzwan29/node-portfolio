@@ -1,8 +1,11 @@
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Partners", link: "#partners" },
-  { name: "Contact", link: "#contact" },
+  // { name: "About", link: "#about" },
+  // { name: "Projects", link: "#projects" },
+  // { name: "Partners", link: "#partners" },
+  // { name: "Contact", link: "#contact" },
+  { name: "Explorer", link: "https://explorer.provewithryd.xyz" },
+  { name: "Monitoring", link: "https://monitoring.provewithryd.xyz" },
+  { name: "Documentation", link: "https://docs.provewithryd.xyz" },
 ];
 
 export const gridItems = [
