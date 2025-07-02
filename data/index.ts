@@ -75,7 +75,7 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "0G Labs",
+    title: "🟢0G Labs",
     des: "Running the 0G modular DA and Storage nodes to support the zk-rollup ecosystem.",
     img: "/0g-wp.jpg",
     iconLists: ["/0g-icon.jpeg"],
@@ -83,7 +83,7 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Atlas Network",
+    title: "🔴Atlas Network",
     des: "Deploying AI-native DePIN node for Atlas Network to support compute resource decentralization.",
     img: "/atlas-wp.jpg",
     iconLists: ["/atlas-icon.png"],
@@ -91,7 +91,7 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Aztec Labs",
+    title: "🟢Aztec Labs",
     des: "Contributing to Aztec's privacy-focused Layer 2 with node infrastructure and testnet participation.",
     img: "/aztec-wp.webp",
     iconLists: ["/aztec-icon.webp"],
@@ -99,7 +99,7 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Coretensor",
+    title: "🟢Coretensor",
     des: "Running GPU-based Coretensor node to support decentralized AI model training workloads.",
     img: "/coretensor-wp.jpg",
     iconLists: ["/coretensor-icon.png"],
@@ -107,7 +107,7 @@ export const projects = [
   },
   {
     id: 5,
-    title: "Cysic",
+    title: "🟢Cysic",
     des: "Validating zkHardware infrastructure by participating in Cysic's early-stage node setup.",
     img: "/cysic-wp.png",
     iconLists: ["/cysic-icon.png"],
@@ -115,7 +115,7 @@ export const projects = [
   },
   {
     id: 6,
-    title: "Dill",
+    title: "🔴Dill",
     des: "Maintaining Dill nodes focused on data availability services for L2 rollups.",
     img: "/dill-wp.png",
     iconLists: ["/dill-icon.png"],
@@ -123,7 +123,7 @@ export const projects = [
   },
   {
     id: 7,
-    title: "Drosera",
+    title: "🟢Drosera",
     des: "Participating in Drosera's decentralized sequencing layer for secure and scalable rollups.",
     img: "/drosera-wp.jpg",
     iconLists: ["/drosera-icon.png"],
@@ -131,37 +131,78 @@ export const projects = [
   },
   {
     id: 8,
-    title: "Farcaster",
+    title: "🟢Empeiria",
+    des: "Deploying node for Privasea's confidential AI computation protocol leveraging zkML.",
+    img: "/empeiria-wp.jpg",
+    iconLists: ["/empeiria-icon.webp"],
+    link: "https://explorer.provewithryd.xyz/empeiria/staking/empevaloper1llw20lql0cpdegy54j2dxqyd2ha5jeruhqgeln",
+  },
+  {
+    id: 9,
+    title: "🔴Farcaster",
     des: "Supporting decentralized social protocols by running Farcaster's on-chain infrastructure.",
     img: "/farcaster-wp.png",
     iconLists: ["/farcaster-icon.png"],
     link: "https://docs.provewithryd.xyz/",
   },
   {
-    id: 9,
-    title: "Humanode",
+    id: 10,
+    title: "🟢Humanode",
     des: "Running biometric-based validator node for Humanode’s unique identity verification chain.",
     img: "/humanode-wp.avif",
     iconLists: ["/humanode-icon.png"],
     link: "https://docs.provewithryd.xyz/",
   },
   {
-    id: 10,
-    title: "Inichain",
+    id: 11,
+    title: "🔴Inichain",
     des: "Setting up infrastructure for Inichain, a new blockchain focused on real-world enterprise adoption.",
     img: "/inichain-wp.png",
     iconLists: ["/inichain-icon.jpg"],
     link: "https://docs.provewithryd.xyz/",
   },
   {
-    id: 11,
-    title: "Privasea",
+    id: 12,
+    title: "🔴Privasea",
     des: "Deploying node for Privasea's confidential AI computation protocol leveraging zkML.",
     img: "/privasea-wp.webp",
     iconLists: ["/privasea-icon.avif"],
     link: "https://docs.provewithryd.xyz/",
-  }
+  },
+  {
+    id: 13,
+    title: "🟢TacChain",
+    des: "Running node on TacChain, an EVM-compatible network extension for TON, enabling seamless dApp access via Telegram and TON wallets.",
+    img: "/tacchain-wp.jpg",
+    iconLists: ["/tacchain-icon.jpg"],
+    link: "https://explorer.provewithryd.xyz/tacchain/staking/tacvaloper1js04l9w3572ha6qgrmc28a66yedmumqk2ufvu5",
+  },
+  {
+    id: 14,
+    title: "🟢Warden",
+    des: "Running validator node for Warden, a modular security and observability layer for Cosmos-based blockchains.",
+    img: "/warden-wp.webp",
+    iconLists: ["/warden-icon.png"],
+    link: "https://explorer.provewithryd.xyz/warden/staking/wardenvaloper1u04q7zpxkz7zdj0vs9nduufpm03vu80athlnr0",
+  },
+  {
+    id: 15,
+    title: "🟢XOS",
+    des: "Operating XOS node to support its cross-chain liquidity aggregation hub, enabling low-cost, high-speed swaps across EVM and non-EVM chains.",
+    img: "/xos-wp.jpg",
+    iconLists: ["/xos-icon.webp"],
+    link: "https://explorer.provewithryd.xyz/xos",
+  },
+  {
+    id: 16,
+    title: "🟢Zigchain",
+    des: "Running validator on ZIGChain, a Layer 1 blockchain designed for inclusive financial access through modular wealth-generation protocols.",
+    img: "/zigchain-wp.jpg",
+    iconLists: ["/zigchain-icon.jpg"],
+    link: "https://explorer.provewithryd.xyz/zigchain/staking/zigvaloper1pjrjnkyunr8e8jrkgrzg4m64wp5tqzyeuf75yj",
+  }  
 ];
+
 
 
 // export const testimonials = [
