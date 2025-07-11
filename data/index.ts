@@ -91,7 +91,7 @@ export const projects = [
   },
   {
     id: 3,
-    title: "🟢Atlas Network",
+    title: "🔴Atlas Network",
     des: "Deploying AI-native DePIN node for Atlas Network to support compute resource decentralization.",
     img: "/atlas-wp.jpg",
     iconLists: ["/atlas-icon.png"],
@@ -131,7 +131,7 @@ export const projects = [
   },
   {
     id: 8,
-    title: "🟢Dill",
+    title: "🔴Dill",
     des: "Maintaining Dill nodes focused on data availability services for L2 rollups.",
     img: "/dill-wp.png",
     iconLists: ["/dill-icon.png"],
@@ -155,7 +155,7 @@ export const projects = [
   },
   {
     id: 11,
-    title: "🟢Farcaster",
+    title: "🔴Farcaster",
     des: "Supporting decentralized social protocols by running Farcaster's on-chain infrastructure.",
     img: "/farcaster-wp.png",
     iconLists: ["/farcaster-icon.png"],
@@ -171,7 +171,7 @@ export const projects = [
   },
   {
     id: 13,
-    title: "🟢Inichain",
+    title: "🔴Inichain",
     des: "Setting up infrastructure for Inichain, a new blockchain focused on real-world enterprise adoption.",
     img: "/inichain-wp.png",
     iconLists: ["/inichain-icon.jpg"],
@@ -187,7 +187,7 @@ export const projects = [
   },
   {
     id: 15,
-    title: "🟢Privasea",
+    title: "🔴Privasea",
     des: "Deploying node for Privasea's confidential AI computation protocol leveraging zkML.",
     img: "/privasea-wp.webp",
     iconLists: ["/privasea-icon.avif"],
