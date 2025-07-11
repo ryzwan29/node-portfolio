@@ -79,7 +79,7 @@ export const projects = [
     des: "Running the 0G modular DA and Storage nodes to support the zk-rollup ecosystem.",
     img: "/0g-wp.jpg",
     iconLists: ["/0g-icon.jpeg"],
-    link: "https://docs.provewithryd.xyz/",
+    link: "https://docs.provewithryd.xyz/"
   },
   {
     id: 2,
@@ -87,143 +87,151 @@ export const projects = [
     des: "Running modular zkFHE-powered nodes for Airchains — a privacy-focused, cross-chain framework for custom blockchain deployments.",
     img: "/airchain-wp.jpg",
     iconLists: ["/airchain.ico"],
-    link: "https://explorer.provewithryd.xyz/airchain/staking/airvaloper1awfqvv5z7kzaj6qh7v4hjyev87e52pkv2gumjt",
+    link: "https://explorer.provewithryd.xyz/airchain/staking/airvaloper1awfqvv5z7kzaj6qh7v4hjyev87e52pkv2gumjt"
   },
   {
     id: 3,
-    title: "🔴Atlas Network",
+    title: "🟢Atlas Network",
     des: "Deploying AI-native DePIN node for Atlas Network to support compute resource decentralization.",
     img: "/atlas-wp.jpg",
     iconLists: ["/atlas-icon.png"],
-    link: "https://docs.provewithryd.xyz/",
+    link: "https://docs.provewithryd.xyz/"
   },
   {
     id: 4,
+    title: "🟢Axone-Mainnet",
+    des: "Validating Axone — a coordination layer for decentralized AI agents, protocols, and applications.",
+    img: "/axone-wp.png",
+    iconLists: ["/axone-icon.png"],
+    link: "https://explorer.provewithryd.xyz/axone-mainnet/staking/axonevaloper1ytru6auvhmp0ygyeka6mkjzl80zf99uw3w8gcw"
+  },
+  {
+    id: 5,
     title: "🟢Aztec Labs",
     des: "Contributing to Aztec's privacy-focused Layer 2 with node infrastructure and testnet participation.",
     img: "/aztec-wp.webp",
     iconLists: ["/aztec-icon.webp"],
-    link: "https://docs.provewithryd.xyz/",
+    link: "https://docs.provewithryd.xyz/"
   },
   {
-    id: 5,
+    id: 6,
     title: "🟢Coretensor",
     des: "Running GPU-based Coretensor node to support decentralized AI model training workloads.",
     img: "/coretensor-wp.jpg",
     iconLists: ["/coretensor-icon.png"],
-    link: "https://docs.provewithryd.xyz/",
+    link: "https://docs.provewithryd.xyz/"
   },
   {
-    id: 6,
+    id: 7,
     title: "🟢Cysic",
     des: "Validating zkHardware infrastructure by participating in Cysic's early-stage node setup.",
     img: "/cysic-wp.png",
     iconLists: ["/cysic-icon.png"],
-    link: "https://docs.provewithryd.xyz/",
-  },
-  {
-    id: 7,
-    title: "🔴Dill",
-    des: "Maintaining Dill nodes focused on data availability services for L2 rollups.",
-    img: "/dill-wp.png",
-    iconLists: ["/dill-icon.png"],
-    link: "https://docs.provewithryd.xyz/",
+    link: "https://docs.provewithryd.xyz/"
   },
   {
     id: 8,
+    title: "🟢Dill",
+    des: "Maintaining Dill nodes focused on data availability services for L2 rollups.",
+    img: "/dill-wp.png",
+    iconLists: ["/dill-icon.png"],
+    link: "https://docs.provewithryd.xyz/"
+  },
+  {
+    id: 9,
     title: "🟢Drosera",
     des: "Participating in Drosera's decentralized sequencing layer for secure and scalable rollups.",
     img: "/drosera-wp.jpg",
     iconLists: ["/drosera-icon.png"],
-    link: "https://docs.provewithryd.xyz/",
+    link: "https://docs.provewithryd.xyz/"
   },
   {
-    id: 9,
+    id: 10,
     title: "🟢Empeiria",
     des: "Deploying node for Privasea's confidential AI computation protocol leveraging zkML.",
     img: "/empeiria-wp.jpg",
     iconLists: ["/empeiria-icon.webp"],
-    link: "https://explorer.provewithryd.xyz/empeiria/staking/empevaloper1llw20lql0cpdegy54j2dxqyd2ha5jeruhqgeln",
-  },
-  {
-    id: 10,
-    title: "🔴Farcaster",
-    des: "Supporting decentralized social protocols by running Farcaster's on-chain infrastructure.",
-    img: "/farcaster-wp.png",
-    iconLists: ["/farcaster-icon.png"],
-    link: "https://docs.provewithryd.xyz/",
+    link: "https://explorer.provewithryd.xyz/empeiria/staking/empevaloper1llw20lql0cpdegy54j2dxqyd2ha5jeruhqgeln"
   },
   {
     id: 11,
+    title: "🟢Farcaster",
+    des: "Supporting decentralized social protocols by running Farcaster's on-chain infrastructure.",
+    img: "/farcaster-wp.png",
+    iconLists: ["/farcaster-icon.png"],
+    link: "https://docs.provewithryd.xyz/"
+  },
+  {
+    id: 12,
     title: "🟢Humanode",
     des: "Running biometric-based validator node for Humanode’s unique identity verification chain.",
     img: "/humanode-wp.avif",
     iconLists: ["/humanode-icon.png"],
-    link: "https://docs.provewithryd.xyz/",
-  },
-  {
-    id: 12,
-    title: "🔴Inichain",
-    des: "Setting up infrastructure for Inichain, a new blockchain focused on real-world enterprise adoption.",
-    img: "/inichain-wp.png",
-    iconLists: ["/inichain-icon.jpg"],
-    link: "https://docs.provewithryd.xyz/",
+    link: "https://docs.provewithryd.xyz/"
   },
   {
     id: 13,
+    title: "🟢Inichain",
+    des: "Setting up infrastructure for Inichain, a new blockchain focused on real-world enterprise adoption.",
+    img: "/inichain-wp.png",
+    iconLists: ["/inichain-icon.jpg"],
+    link: "https://docs.provewithryd.xyz/"
+  },
+  {
+    id: 14,
     title: "🟢Intento",
     des: "Enabling on-chain orchestration of user-defined actions across IBC-connected chains via intent-based automation.",
     img: "/intento-wp.png",
     iconLists: ["/intento-icon.jpg"],
-    link: "https://explorer.provewithryd.xyz/intento/staking/intovaloper1rc6rv5hnvrp5k6s2pzwtyvlqpah5yjph2j9wer",
-  },
-  {
-    id: 14,
-    title: "🔴Privasea",
-    des: "Deploying node for Privasea's confidential AI computation protocol leveraging zkML.",
-    img: "/privasea-wp.webp",
-    iconLists: ["/privasea-icon.avif"],
-    link: "https://docs.provewithryd.xyz/",
+    link: "https://explorer.provewithryd.xyz/intento/staking/intovaloper1rc6rv5hnvrp5k6s2pzwtyvlqpah5yjph2j9wer"
   },
   {
     id: 15,
+    title: "🟢Privasea",
+    des: "Deploying node for Privasea's confidential AI computation protocol leveraging zkML.",
+    img: "/privasea-wp.webp",
+    iconLists: ["/privasea-icon.avif"],
+    link: "https://docs.provewithryd.xyz/"
+  },
+  {
+    id: 16,
     title: "🟢Safrochain",
     des: "A Cosmos SDK chain designed for real-world dApps with IBC interoperability, high performance, and community-driven design.",
     img: "/safrochain-wp.jpeg",
     iconLists: ["/safrochain-icon.svg"],
-    link: "https://explorer.provewithryd.xyz/safrochain/staking/addr_safrovaloper17u7gafg2yxe8jt867we8ymxwfx4dgkghw9ewh9",
+    link: "https://explorer.provewithryd.xyz/safrochain/staking/addr_safrovaloper17u7gafg2yxe8jt867we8ymxwfx4dgkghw9ewh9"
   },
   {
-    id: 16,
+    id: 17,
     title: "🟢TacChain",
     des: "Running node on TacChain, an EVM-compatible network extension for TON, enabling seamless dApp access via Telegram and TON wallets.",
     img: "/tacchain-wp.jpg",
     iconLists: ["/tacchain-icon.jpg"],
-    link: "https://explorer.provewithryd.xyz/tacchain/staking/tacvaloper1js04l9w3572ha6qgrmc28a66yedmumqk2ufvu5",
+    link: "https://explorer.provewithryd.xyz/tacchain/staking/tacvaloper1js04l9w3572ha6qgrmc28a66yedmumqk2ufvu5"
   },
   {
-    id: 17,
+    id: 18,
     title: "🟢Warden",
     des: "Running validator node for Warden, a modular security and observability layer for Cosmos-based blockchains.",
     img: "/warden-wp.webp",
     iconLists: ["/warden-icon.png"],
-    link: "https://explorer.provewithryd.xyz/warden/staking/wardenvaloper1u04q7zpxkz7zdj0vs9nduufpm03vu80athlnr0",
+    link: "https://explorer.provewithryd.xyz/warden/staking/wardenvaloper1u04q7zpxkz7zdj0vs9nduufpm03vu80athlnr0"
   },
   {
-    id: 18,
+    id: 19,
     title: "🟢XOS",
     des: "Operating XOS node to support its cross-chain liquidity aggregation hub, enabling low-cost, high-speed swaps across EVM and non-EVM chains.",
     img: "/xos-wp.jpg",
     iconLists: ["/xos-icon.webp"],
-    link: "https://explorer.provewithryd.xyz/xos/staking/cosmosvaloper13eygg45ulkjlexyqyt3hu57m87suu329snyru9",
+    link: "https://explorer.provewithryd.xyz/xos/staking/cosmosvaloper13eygg45ulkjlexyqyt3hu57m87suu329snyru9"
   },
   {
-    id: 19,
+    id: 20,
     title: "🟢Zigchain",
     des: "Running validator on ZIGChain, a Layer 1 blockchain designed for inclusive financial access through modular wealth-generation protocols.",
     img: "/zigchain-wp.jpg",
     iconLists: ["/zigchain-icon.jpg"],
-    link: "https://explorer.provewithryd.xyz/zigchain/staking/zigvaloper1pjrjnkyunr8e8jrkgrzg4m64wp5tqzyeuf75yj",
+    link: "https://explorer.provewithryd.xyz/zigchain/staking/zigvaloper1pjrjnkyunr8e8jrkgrzg4m64wp5tqzyeuf75yj"
   }  
 ];
 
