@@ -1,81 +1,132 @@
 "use client";
 
 import { FaLocationArrow } from "react-icons/fa6";
+import { useState } from "react";
 import { projects } from "@/data";
-import { PinContainer } from "./ui/Pin";
 
 const RecentProjects = () => {
-  return (
-    <div className="py-20" id="projects">
-      <h1 className="heading">
-        My node validator<span className="text-purple"> projects</span>
-      </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 p-4 mt-0">
-        {projects.map((item) => (
-          <a
-            href={item.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            key={item.id}
-            className="block"
-          >
-            <div className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]">
-              <PinContainer title={item.title} href={item.link}>
-                <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
-                  <div
-                    className="relative w-full h-full overflow-hidden lg:rounded-3xl rounded-2xl"
-                    style={{ backgroundColor: "#13162D" }}
-                  >
-                    <img
-                      src="/bg.png"
-                      alt="bgimg"
-                      className="absolute inset-0 w-full h-full object-cover rounded-2xl"
-                    />
-                  </div>
-                  <img
-                    src={item.img}
-                    alt="cover"
-                    className="absolute inset-0 w-full h-full object-cover z-10 rounded-2xl border-4 border-white/20"
-                  />
-                </div>
-                <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
-                  {item.title}
-                </h1>
-                <p
-                  className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
-                  style={{ color: "#BEC1DD", margin: "1vh 0" }}
-                >
-                  {item.des}
-                </p>
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-3">
-                    {item.iconLists?.map((icon, index) => (
-                    <div
-                      key={index}
-                      className="border border-white/[.2] rounded-full lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center overflow-hidden"
-                      style={{
-                        transform: `translateX(-${5 * index + 2}px)`,
-                      }}
-                    >
-                    <img
-                      src={icon}
-                      alt="icon"
-                      className="w-full h-full object-cover rounded-full"
-                    />
-                    </div>
-                    ))}
-                  </div>
+  const [filter, setFilter] = useState("all");
 
-                  <div className="flex justify-start items-center w-full ml-4">
-                    <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                      See the node installation guide
-                    </p>
-                    <FaLocationArrow className="ms-3" color="#CBACF9" />
-                  </div>
-                </div>
-              </PinContainer>
+  const filteredProjects = projects
+    .filter((item) => {
+      const title = item.title.toLowerCase();
+      if (filter === "mainnet") return title.includes("mainnet");
+      if (filter === "testnet") return title.includes("testnet");
+      return true;
+    })
+    .sort((a, b) => {
+      const isAActive = a.title.includes("🟢");
+      const isBActive = b.title.includes("🟢");
+      if (isAActive === isBActive) return 0;
+      return isAActive ? -1 : 1; // Active duluan
+    });
+
+  return (
+    <div className="py-24 px-4 sm:px-6 lg:px-8" id="projects">
+      {/* Title */}
+      <div className="text-center max-w-3xl mx-auto">
+        <h1 className="text-4xl sm:text-5xl font-extrabold mb-8">
+          Supported<span className="text-purple"> Networks</span>
+        </h1>
+        <p className="text-base sm:text-lg text-gray-300 leading-relaxed mb-8">
+          Explore our supported networks and discover how we contribute to decentralized blockchain projects.
+        </p>
+      </div>
+
+      {/* Tombol Filter */}
+      <div className="flex justify-center mb-12">
+        <div className="flex bg-[#0b0f24] text-white rounded-full border border-[#1e2240] p-1">
+          {["all", "mainnet", "testnet"].map((type) => {
+            const isActive = filter === type;
+            const label =
+              type === "all"
+                ? "All"
+                : type === "mainnet"
+                ? `Mainnet`
+                : "Testnet";
+
+            const count = projects.filter((p) =>
+              type === "all"
+                ? true
+                : p.title.toLowerCase().includes(type)
+            ).length;
+
+            return (
+              <button
+                key={type}
+                onClick={() => setFilter(type)}
+                className={`capitalize flex items-center gap-2 px-5 py-2 text-sm sm:text-base rounded-full transition-all duration-200 ${
+                  isActive
+                    ? "bg-white text-black font-semibold shadow-md"
+                    : "text-gray-300 hover:bg-[#1e2240]"
+                }`}
+              >
+                {label}
+                <span
+                  className={`text-xs w-6 h-6 flex items-center justify-center rounded-full ${
+                    isActive
+                      ? "bg-gray-800 text-white"
+                      : "bg-[#222] text-gray-400"
+                  }`}
+                >
+                  {count}
+                </span>
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* Card Project */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
+        {filteredProjects.map((item) => (
+          <div
+            key={item.id}
+            className="bg-[#0f111a] border border-[#1e2240] rounded-xl p-6 flex flex-col justify-between hover:shadow-[0_0_20px_3px_rgba(115,0,255,0.4)] transition-all duration-300 transform hover:-translate-y-1 scale-105"
+          >
+            {/* Logo + Title */}
+            <div className="flex items-center gap-4 mb-4">
+              <img
+                src={item.iconLists?.[0] || "/default-icon.png"}
+                alt="icon"
+                className="w-10 h-10 rounded-full object-cover border border-gray-700"
+              />
+              <h2 className="text-white font-semibold text-lg">
+                {item.title}
+              </h2>
             </div>
-          </a>
+
+            {/* Tombol */}
+            <div className="flex gap-3 mt-2">
+              {/* Explorer Button */}
+              <a
+                href={item.stake !== "#" ? item.stake : undefined}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`flex-1 text-center py-2 rounded-lg text-sm font-medium transition ${
+                  item.stake !== "#"
+                    ? "bg-blue-500 hover:bg-blue-600 text-white"
+                    : "bg-[#2a2d3c] text-gray-400 cursor-not-allowed"
+                }`}
+              >
+                Explorer
+              </a>
+
+              {/* Guide Button */}
+              <a
+                href={item.docs !== "#" ? item.docs : undefined}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`flex-1 text-center py-2 rounded-lg text-sm font-medium transition ${
+                  item.docs !== "#"
+                    ? "bg-[#a855f7] hover:bg-[#9333ea] text-white"
+                    : "bg-[#3a3d4c] text-gray-500 cursor-not-allowed"
+                }`}
+              >
+                Guide
+              </a>
+            </div>
+          </div>
         ))}
       </div>
     </div>
