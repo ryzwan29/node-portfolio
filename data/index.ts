@@ -240,7 +240,7 @@ export const projects = [
     title: "🟢Safrochain-Testnet",
     des: "A Cosmos SDK chain designed for real-world dApps with IBC interoperability, high performance, and community-driven design.",
     img: "/safrochain-wp.jpeg",
-    iconLists: ["/safrochain-icon.svg"],
+    iconLists: ["/safrochain-icon.jpg"],
     stake: "https://explorer.provewithryd.xyz/safrochain-testnet/staking/addr_safrovaloper17u7gafg2yxe8jt867we8ymxwfx4dgkghw9ewh9",
     docs: "https://docs.provewithryd.xyz/testnet/safrochain"
   },
@@ -255,7 +255,7 @@ export const projects = [
   },
   {
     id: 21,
-    title: "🔴TacChain-Testnet[Migrate to Mainnet]",
+    title: "🔴TacChain-Testnet[OFFLINE]",
     des: "Running node on TacChain, an EVM-compatible network extension for TON, enabling seamless dApp access via Telegram and TON wallets.",
     img: "/tacchain-wp.jpg",
     iconLists: ["/tacchain-icon.jpg"],
