@@ -255,7 +255,7 @@ export const projects = [
   },
   {
     id: 21,
-    title: "🟢TacChain-Testnet",
+    title: "🔴TacChain-Testnet[Migrate to Mainnet]",
     des: "Running node on TacChain, an EVM-compatible network extension for TON, enabling seamless dApp access via Telegram and TON wallets.",
     img: "/tacchain-wp.jpg",
     iconLists: ["/tacchain-icon.jpg"],
