@@ -79,7 +79,7 @@ export const projects = [
     des: "Running the 0G modular DA and Storage nodes to support the zk-rollup ecosystem.",
     img: "/0g-wp.jpg",
     iconLists: ["/0g-icon.jpeg"],
-    stake: "#",
+    stake: "https://stake.astrostake.xyz/0g-labs-galileo/validators/0x7d6668B1480Df6725A8Ae06aC56B81b9F821438d",
     docs: "https://docs.provewithryd.xyz/testnet/0g-labs"
   },
   {
@@ -124,7 +124,7 @@ export const projects = [
     des: "Running GPU-based Coretensor node to support decentralized AI model training workloads.",
     img: "/coretensor-wp.jpg",
     iconLists: ["/coretensor-icon.png"],
-    stake: "#",
+    stake: "https://stake.cortensor.network/",
     docs: "https://docs.provewithryd.xyz/testnet/coretensor"
   },
   {
@@ -134,7 +134,7 @@ export const projects = [
     img: "/crossfi-wp.jpg",
     iconLists: ["/crossfi-icon.jpg"],
     stake: "https://explorer.provewithryd.xyz/crossfi-mainnet/staking/mxvaloper1t7qy095va4d29xw93jpkyvstl68cgutap9hc5h",
-    docs: "#"
+    docs: "https://docs.provewithryd.xyz/mainnet/crossfi"
   },
   {
     id: 8,
@@ -152,7 +152,7 @@ export const projects = [
     img: "/dhealth-wp.avif",
     iconLists: ["/dhealth-icon.png"],
     stake: "https://explorer.provewithryd.xyz/dhealth-mainnet/staking/dhvaloper1yt0t49ykx2yc0ln9ywmnq2mfd69upvx97u4kpl",
-    docs: "#"
+    docs: "https://docs.provewithryd.xyz/mainnet/dhealth"
   },
   {
     id: 10,
@@ -224,7 +224,7 @@ export const projects = [
     img: "/medas-wp.jpg",
     iconLists: ["/medas-icon.png"],
     stake: "https://explorer.provewithryd.xyz/medas-mainnet/staking/medasvaloper1npw0kkuh5gmw22nxpumax442fpxuz5uvu3atuq",
-    docs: "#"
+    docs: "https://docs.provewithryd.xyz/mainnet/medas-digital"
   },
   {
     id: 18,
@@ -251,11 +251,11 @@ export const projects = [
     img: "/selfchain-wp.jpg",
     iconLists: ["/selfchain-icon.png"],
     stake: "https://explorer.provewithryd.xyz/selfchain-mainnet/staking/selfvaloper1ru06lwkcgznfnpa70a9l5dsp0mjvfeyzyjs0ct",
-    docs: "#"
+    docs: "https://docs.provewithryd.xyz/mainnet/selfchain"
   },
   {
     id: 21,
-    title: "🔴TacChain-Testnet[END]",
+    title: "🟢TacChain-Testnet",
     des: "Running node on TacChain, an EVM-compatible network extension for TON, enabling seamless dApp access via Telegram and TON wallets.",
     img: "/tacchain-wp.jpg",
     iconLists: ["/tacchain-icon.jpg"],

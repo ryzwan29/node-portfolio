@@ -109,7 +109,7 @@ const RecentProjects = () => {
                     : "bg-[#2a2d3c] text-gray-400 cursor-not-allowed"
                 }`}
               >
-                Explorer
+                Stake
               </a>
 
               {/* Guide Button */}
