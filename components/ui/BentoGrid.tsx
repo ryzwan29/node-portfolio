@@ -52,8 +52,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-const leftLists = ["RPC Node", "Light Node", "Validator"];  
-const rightLists = ["DA Node", "Sentry Node", "Storage Node"];  
+const leftLists = ["RPC Node", "Snapshot", "Validator"];  
+const rightLists = ["Guide Installation", "Public Endpoint", "Storage Node"];  
 
   const [copied, setCopied] = useState(false);
 

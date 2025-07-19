@@ -288,6 +288,33 @@ export const projects = [
     iconLists: ["/zigchain-icon.jpg"],
     stake: "https://explorer.provewithryd.xyz/zigchain-testnet/staking/zigvaloper1pjrjnkyunr8e8jrkgrzg4m64wp5tqzyeuf75yj",
     docs: "https://docs.provewithryd.xyz/testnet/zigchain"
+  },
+  {
+    id: 25,
+    title: "🟢Quicksilver-Mainnet",
+    des: "Running validator on ZIGChain, a Layer 1 blockchain designed for inclusive financial access through modular wealth-generation protocols.",
+    img: "/zigchain-wp.jpg",
+    iconLists: ["/quicksilver.webp"],
+    stake: "https://explorer.provewithryd.xyz/quicksilver-mainnet/staking/quickvaloper18zpmlj08q43rpxacekhst4cnkxegsc53ptcewx",
+    docs: "#"
+  },
+  {
+    id: 26,
+    title: "🟢TerraLuna-Mainnet",
+    des: "Running validator on ZIGChain, a Layer 1 blockchain designed for inclusive financial access through modular wealth-generation protocols.",
+    img: "/zigchain-wp.jpg",
+    iconLists: ["/luna.png"],
+    stake: "https://explorer.provewithryd.xyz/terraluna-mainnet/staking/terravaloper1y99dhap8kd87wnsuepna22jgwfgdmj077jag97",
+    docs: "#"
+  },
+  {
+    id: 27,
+    title: "🟢Pryzm-Mainnet",
+    des: "Running validator on ZIGChain, a Layer 1 blockchain designed for inclusive financial access through modular wealth-generation protocols.",
+    img: "/zigchain-wp.jpg",
+    iconLists: ["/pryzm.svg"],
+    stake: "https://explorer.provewithryd.xyz/pryzm-mainnet/staking/pryzmvaloper1zx3wjlrkhr5ch9ftnhvl3k4fxxw9zls8x3naf4",
+    docs: "#"
   }
 ];
 

@@ -7,6 +7,20 @@ import { projects } from "@/data";
 const RecentProjects = () => {
   const [filter, setFilter] = useState("all");
 
+  // const filteredProjects = projects
+  //   .filter((item) => {
+  //     const title = item.title.toLowerCase();
+  //     if (filter === "mainnet") return title.includes("mainnet");
+  //     if (filter === "testnet") return title.includes("testnet");
+  //     return true;
+  //   })
+  //   .sort((a, b) => {
+  //     const isAActive = a.title.includes("🟢");
+  //     const isBActive = b.title.includes("🟢");
+  //     if (isAActive === isBActive) return 0;
+  //     return isAActive ? -1 : 1; // Active duluan
+  //   });
+
   const filteredProjects = projects
     .filter((item) => {
       const title = item.title.toLowerCase();
@@ -17,8 +31,10 @@ const RecentProjects = () => {
     .sort((a, b) => {
       const isAActive = a.title.includes("🟢");
       const isBActive = b.title.includes("🟢");
-      if (isAActive === isBActive) return 0;
-      return isAActive ? -1 : 1; // Active duluan
+      if (isAActive === isBActive) {
+        return a.title.localeCompare(b.title); // Sort abjad kalau status sama
+      }
+      return isAActive ? -1 : 1; // Aktif duluan
     });
 
   return (
