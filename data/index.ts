@@ -303,7 +303,7 @@ export const projects = [
     title: "🟢TerraLuna-Mainnet",
     des: "Running validator on ZIGChain, a Layer 1 blockchain designed for inclusive financial access through modular wealth-generation protocols.",
     img: "/zigchain-wp.jpg",
-    iconLists: ["/luna.png"],
+    iconLists: ["/terra-luna.png"],
     stake: "https://explorer.provewithryd.xyz/terraluna-mainnet/staking/terravaloper1y99dhap8kd87wnsuepna22jgwfgdmj077jag97",
     docs: "#"
   },
@@ -316,6 +316,15 @@ export const projects = [
   //   stake: "https://explorer.provewithryd.xyz/pryzm-mainnet/staking/pryzmvaloper1zx3wjlrkhr5ch9ftnhvl3k4fxxw9zls8x3naf4",
   //   docs: "#"
   // }
+  {
+    id: 28,
+    title: "🟢TerraClassic-Mainnet",
+    des: "Running validator on ZIGChain, a Layer 1 blockchain designed for inclusive financial access through modular wealth-generation protocols.",
+    img: "/zigchain-wp.jpg",
+    iconLists: ["/terra-classic.png"],
+    stake: "https://explorer.provewithryd.xyz/terraclassic-mainnet/staking/terravaloper1y99dhap8kd87wnsuepna22jgwfgdmj077jag97",
+    docs: "#"
+  },
 ];
 
 
