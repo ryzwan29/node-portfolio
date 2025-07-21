@@ -127,15 +127,15 @@ export const projects = [
     stake: "https://stake.cortensor.network/",
     docs: "https://docs.provewithryd.xyz/testnet/coretensor"
   },
-  {
-    id: 7,
-    title: "🟢Crossfi-Mainnet",
-    des: "Next-gen Layer 1 integrating Cosmos SDK and EVM to power high-performance DeFi, Web3, and TradFi solutions.",
-    img: "/crossfi-wp.jpg",
-    iconLists: ["/crossfi-icon.jpg"],
-    stake: "https://explorer.provewithryd.xyz/crossfi-mainnet/staking/mxvaloper1t7qy095va4d29xw93jpkyvstl68cgutap9hc5h",
-    docs: "https://docs.provewithryd.xyz/mainnet/crossfi"
-  },
+  // {
+  //   id: 7,
+  //   title: "🟢Crossfi-Mainnet",
+  //   des: "Next-gen Layer 1 integrating Cosmos SDK and EVM to power high-performance DeFi, Web3, and TradFi solutions.",
+  //   img: "/crossfi-wp.jpg",
+  //   iconLists: ["/crossfi-icon.jpg"],
+  //   stake: "https://explorer.provewithryd.xyz/crossfi-mainnet/staking/mxvaloper1t7qy095va4d29xw93jpkyvstl68cgutap9hc5h",
+  //   docs: "https://docs.provewithryd.xyz/mainnet/crossfi"
+  // },
   {
     id: 8,
     title: "🟢Cysic",
@@ -244,15 +244,15 @@ export const projects = [
     stake: "https://explorer.provewithryd.xyz/safrochain-testnet/staking/addr_safrovaloper17u7gafg2yxe8jt867we8ymxwfx4dgkghw9ewh9",
     docs: "https://docs.provewithryd.xyz/testnet/safrochain"
   },
-  {
-    id: 20,
-    title: "🟢Selfchain-Mainnet",
-    des: "Modular, intent-centric Layer 1 with keyless MPC-TSS/AA wallets for seamless and secure multi-chain Web3 access.",
-    img: "/selfchain-wp.jpg",
-    iconLists: ["/selfchain-icon.png"],
-    stake: "https://explorer.provewithryd.xyz/selfchain-mainnet/staking/selfvaloper1ru06lwkcgznfnpa70a9l5dsp0mjvfeyzyjs0ct",
-    docs: "https://docs.provewithryd.xyz/mainnet/selfchain"
-  },
+  // {
+  //   id: 20,
+  //   title: "🟢Selfchain-Mainnet",
+  //   des: "Modular, intent-centric Layer 1 with keyless MPC-TSS/AA wallets for seamless and secure multi-chain Web3 access.",
+  //   img: "/selfchain-wp.jpg",
+  //   iconLists: ["/selfchain-icon.png"],
+  //   stake: "https://explorer.provewithryd.xyz/selfchain-mainnet/staking/selfvaloper1ru06lwkcgznfnpa70a9l5dsp0mjvfeyzyjs0ct",
+  //   docs: "https://docs.provewithryd.xyz/mainnet/selfchain"
+  // },
   {
     id: 21,
     title: "🔴TacChain-Testnet[OFFLINE]",
@@ -289,15 +289,15 @@ export const projects = [
     stake: "https://explorer.provewithryd.xyz/zigchain-testnet/staking/zigvaloper1pjrjnkyunr8e8jrkgrzg4m64wp5tqzyeuf75yj",
     docs: "https://docs.provewithryd.xyz/testnet/zigchain"
   },
-  {
-    id: 25,
-    title: "🟢Quicksilver-Mainnet",
-    des: "Running validator on ZIGChain, a Layer 1 blockchain designed for inclusive financial access through modular wealth-generation protocols.",
-    img: "/zigchain-wp.jpg",
-    iconLists: ["/quicksilver.webp"],
-    stake: "https://explorer.provewithryd.xyz/quicksilver-mainnet/staking/quickvaloper18zpmlj08q43rpxacekhst4cnkxegsc53ptcewx",
-    docs: "#"
-  },
+  // {
+  //   id: 25,
+  //   title: "🟢Quicksilver-Mainnet",
+  //   des: "Running validator on ZIGChain, a Layer 1 blockchain designed for inclusive financial access through modular wealth-generation protocols.",
+  //   img: "/zigchain-wp.jpg",
+  //   iconLists: ["/quicksilver.webp"],
+  //   stake: "https://explorer.provewithryd.xyz/quicksilver-mainnet/staking/quickvaloper18zpmlj08q43rpxacekhst4cnkxegsc53ptcewx",
+  //   docs: "#"
+  // },
   {
     id: 26,
     title: "🟢TerraLuna-Mainnet",
@@ -307,15 +307,15 @@ export const projects = [
     stake: "https://explorer.provewithryd.xyz/terraluna-mainnet/staking/terravaloper1y99dhap8kd87wnsuepna22jgwfgdmj077jag97",
     docs: "#"
   },
-  {
-    id: 27,
-    title: "🟢Pryzm-Mainnet",
-    des: "Running validator on ZIGChain, a Layer 1 blockchain designed for inclusive financial access through modular wealth-generation protocols.",
-    img: "/zigchain-wp.jpg",
-    iconLists: ["/pryzm.svg"],
-    stake: "https://explorer.provewithryd.xyz/pryzm-mainnet/staking/pryzmvaloper1zx3wjlrkhr5ch9ftnhvl3k4fxxw9zls8x3naf4",
-    docs: "#"
-  }
+  // {
+  //   id: 27,
+  //   title: "🟢Pryzm-Mainnet",
+  //   des: "Running validator on ZIGChain, a Layer 1 blockchain designed for inclusive financial access through modular wealth-generation protocols.",
+  //   img: "/zigchain-wp.jpg",
+  //   iconLists: ["/pryzm.svg"],
+  //   stake: "https://explorer.provewithryd.xyz/pryzm-mainnet/staking/pryzmvaloper1zx3wjlrkhr5ch9ftnhvl3k4fxxw9zls8x3naf4",
+  //   docs: "#"
+  // }
 ];
 
 
