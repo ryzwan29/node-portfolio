@@ -332,7 +332,7 @@ export const projects = [
     img: "/zigchain-wp.jpg",
     iconLists: ["/hippo.png"],
     stake: "https://explorer.provewithryd.xyz/hippo-mainnet/staking/hippovaloper1aeyautdguat2y8nq66qm2pxg6ah70c8lptvnca",
-    docs: "#"
+    docs: "https://docs.provewithryd.xyz/mainnet/hippo-protocol"
   }
 ];
 
