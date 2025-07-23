@@ -325,6 +325,15 @@ export const projects = [
     stake: "https://explorer.provewithryd.xyz/terraclassic-mainnet/staking/terravaloper1y99dhap8kd87wnsuepna22jgwfgdmj077jag97",
     docs: "#"
   },
+  {
+    id: 29,
+    title: "🟢Hippo Protocol-Mainnet",
+    des: "Running validator on ZIGChain, a Layer 1 blockchain designed for inclusive financial access through modular wealth-generation protocols.",
+    img: "/zigchain-wp.jpg",
+    iconLists: ["/hippo.png"],
+    stake: "https://explorer.provewithryd.xyz/hippo-mainnet/staking/hippovaloper1aeyautdguat2y8nq66qm2pxg6ah70c8lptvnca",
+    docs: "#"
+  }
 ];
 
 
