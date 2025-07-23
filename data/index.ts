@@ -333,6 +333,15 @@ export const projects = [
     iconLists: ["/hippo.png"],
     stake: "https://explorer.provewithryd.xyz/hippo-mainnet/staking/hippovaloper1aeyautdguat2y8nq66qm2pxg6ah70c8lptvnca",
     docs: "https://docs.provewithryd.xyz/mainnet/hippo-protocol"
+  },
+  {
+    id: 30,
+    title: "🟢Kopi-Mainnet",
+    des: "Running validator on ZIGChain, a Layer 1 blockchain designed for inclusive financial access through modular wealth-generation protocols.",
+    img: "/zigchain-wp.jpg",
+    iconLists: ["/kopi.jpg"],
+    stake: "https://explorer.provewithryd.xyz/kopi-mainnet/staking/kopivaloper13zd3cpts38wucsnv9aaw8jkj9yfudrdhvc5rl0",
+    docs: "https://docs.provewithryd.xyz/mainnet/kopi"
   }
 ];
 
