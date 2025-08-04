@@ -74,274 +74,154 @@ export const gridItems = [
 
 export const projects = [
   {
-    id: 1,
     title: "🟢0G Labs-Testnet",
-    des: "Running the 0G modular DA and Storage nodes to support the zk-rollup ecosystem.",
-    img: "/0g-wp.jpg",
     iconLists: ["/0g-icon.jpeg"],
     stake: "https://stake.astrostake.xyz/0g-labs-galileo/validators/0x7d6668B1480Df6725A8Ae06aC56B81b9F821438d",
     docs: "https://docs.provewithryd.xyz/testnet/0g-labs"
   },
   {
-    id: 2,
     title: "🟢Airchain-Testnet",
-    des: "Running modular zkFHE-powered nodes for Airchains — a privacy-focused, cross-chain framework for custom blockchain deployments.",
-    img: "/airchain-wp.jpg",
     iconLists: ["/airchain.ico"],
     stake: "https://explorer.provewithryd.xyz/airchain-testnet/staking/airvaloper1awfqvv5z7kzaj6qh7v4hjyev87e52pkv2gumjt",
     docs: "https://docs.provewithryd.xyz/testnet/airchain"
   },
   {
-    id: 3,
     title: "🔴Atlas Network[OFFLINE]",
-    des: "Deploying AI-native DePIN node for Atlas Network to support compute resource decentralization.",
-    img: "/atlas-wp.jpg",
     iconLists: ["/atlas-icon.png"],
     stake: "#",
     docs: "#"
   },
   {
-    id: 4,
     title: "🟢Axone-Mainnet",
-    des: "Validating Axone — a coordination layer for decentralized AI agents, protocols, and applications.",
-    img: "/axone-wp.png",
     iconLists: ["/axone-icon.png"],
     stake: "https://explorer.provewithryd.xyz/axone-mainnet/staking/axonevaloper1ytru6auvhmp0ygyeka6mkjzl80zf99uw3w8gcw",
     docs: "https://docs.provewithryd.xyz/mainnet/axone"
   },
   {
-    id: 5,
     title: "🟢Aztec Labs",
-    des: "Contributing to Aztec's privacy-focused Layer 2 with node infrastructure and testnet participation.",
-    img: "/aztec-wp.webp",
     iconLists: ["/aztec-icon.webp"],
     stake: "#",
     docs: "https://docs.provewithryd.xyz/testnet/aztec"
   },
   {
-    id: 6,
     title: "🟢Coretensor-Testnet",
-    des: "Running GPU-based Coretensor node to support decentralized AI model training workloads.",
-    img: "/coretensor-wp.jpg",
     iconLists: ["/coretensor-icon.png"],
     stake: "https://stake.cortensor.network/",
     docs: "https://docs.provewithryd.xyz/testnet/coretensor"
   },
-  // {
-  //   id: 7,
-  //   title: "🟢Crossfi-Mainnet",
-  //   des: "Next-gen Layer 1 integrating Cosmos SDK and EVM to power high-performance DeFi, Web3, and TradFi solutions.",
-  //   img: "/crossfi-wp.jpg",
-  //   iconLists: ["/crossfi-icon.jpg"],
-  //   stake: "https://explorer.provewithryd.xyz/crossfi-mainnet/staking/mxvaloper1t7qy095va4d29xw93jpkyvstl68cgutap9hc5h",
-  //   docs: "https://docs.provewithryd.xyz/mainnet/crossfi"
-  // },
   {
-    id: 8,
     title: "🟢Cysic",
-    des: "Validating zkHardware infrastructure by participating in Cysic's early-stage node setup.",
-    img: "/cysic-wp.png",
     iconLists: ["/cysic-icon.png"],
     stake: "#",
     docs: "https://docs.provewithryd.xyz/testnet/cysic"
   },
   {
-    id: 9,
     title: "🟢Dhealth-Mainnet",
-    des: "Public blockchain framework tailored for healthcare data exchange, real-time transactions, and ecosystem collaboration.",
-    img: "/dhealth-wp.avif",
     iconLists: ["/dhealth-icon.png"],
     stake: "https://explorer.provewithryd.xyz/dhealth-mainnet/staking/dhvaloper1yt0t49ykx2yc0ln9ywmnq2mfd69upvx97u4kpl",
     docs: "https://docs.provewithryd.xyz/mainnet/dhealth"
   },
   {
-    id: 10,
     title: "🔴Dill-Testnet[END]",
-    des: "Maintaining Dill nodes focused on data availability services for L2 rollups.",
-    img: "/dill-wp.png",
     iconLists: ["/dill-icon.png"],
     stake: "#",
     docs: "https://docs.provewithryd.xyz/archieve-end/dill"
   },
   {
-    id: 11,
     title: "🟢Drosera-Testnet",
-    des: "Participating in Drosera's decentralized sequencing layer for secure and scalable rollups.",
-    img: "/drosera-wp.jpg",
     iconLists: ["/drosera-icon.png"],
     stake: "#",
     docs: "https://docs.provewithryd.xyz/testnet/drosera"
   },
   {
-    id: 12,
     title: "🟢Empeiria-Testnet",
-    des: "Deploying node for Privasea's confidential AI computation protocol leveraging zkML.",
-    img: "/empeiria-wp.jpg",
     iconLists: ["/empeiria-icon.webp"],
     stake: "https://explorer.provewithryd.xyz/empeiria-testnet/staking/empevaloper1llw20lql0cpdegy54j2dxqyd2ha5jeruhqgeln",
     docs: "https://docs.provewithryd.xyz/testnet/empeiria"
   },
   {
-    id: 13,
     title: "🔴Farcaster-Mainnet[OFFLINE]",
-    des: "Supporting decentralized social protocols by running Farcaster's on-chain infrastructure.",
-    img: "/farcaster-wp.png",
     iconLists: ["/farcaster-icon.png"],
     stake: "#",
     docs: "https://docs.provewithryd.xyz/testnet/farcaster"
   },
   {
-    id: 14,
     title: "🟢Humanode-Mainnet",
-    des: "Running biometric-based validator node for Humanode’s unique identity verification chain.",
-    img: "/humanode-wp.avif",
     iconLists: ["/humanode-icon.png"],
     stake: "#",
     docs: "https://docs.provewithryd.xyz/mainnet/humanode"
   },
   {
-    id: 15,
     title: "🔴Inichain-Mainnet[END]",
-    des: "Setting up infrastructure for Inichain, a new blockchain focused on real-world enterprise adoption.",
-    img: "/inichain-wp.png",
     iconLists: ["/inichain-icon.jpg"],
     stake: "#",
     docs: "https://docs.provewithryd.xyz/mainnet/initverse"
   },
   {
-    id: 16,
     title: "🟢Intento-Testnet",
-    des: "Enabling on-chain orchestration of user-defined actions across IBC-connected chains via intent-based automation.",
-    img: "/intento-wp.png",
     iconLists: ["/intento-icon.jpg"],
     stake: "https://explorer.provewithryd.xyz/intento-testnet/staking/intovaloper1rc6rv5hnvrp5k6s2pzwtyvlqpah5yjph2j9wer",
     docs: "https://docs.provewithryd.xyz/testnet/intento"
   },
   {
-    id: 17,
     title: "🟢Medas Digital-Mainnet",
-    des: "Layer 1 platform with a strong focus on transparency, innovation, and community-driven tokenomics, as outlined in its comprehensive whitepaper.",
-    img: "/medas-wp.jpg",
     iconLists: ["/medas-icon.png"],
     stake: "https://explorer.provewithryd.xyz/medas-mainnet/staking/medasvaloper1npw0kkuh5gmw22nxpumax442fpxuz5uvu3atuq",
     docs: "https://docs.provewithryd.xyz/mainnet/medas-digital"
   },
   {
-    id: 18,
     title: "🔴Privasea[END]",
-    des: "Deploying node for Privasea's confidential AI computation protocol leveraging zkML.",
-    img: "/privasea-wp.webp",
     iconLists: ["/privasea-icon.avif"],
     stake: "#",
     docs: "https://docs.provewithryd.xyz/archieve-end/privasea"
   },
   {
-    id: 19,
     title: "🟢Safrochain-Testnet",
-    des: "A Cosmos SDK chain designed for real-world dApps with IBC interoperability, high performance, and community-driven design.",
-    img: "/safrochain-wp.jpeg",
     iconLists: ["/safrochain-icon.jpg"],
     stake: "https://explorer.provewithryd.xyz/safrochain-testnet/staking/addr_safrovaloper17u7gafg2yxe8jt867we8ymxwfx4dgkghw9ewh9",
     docs: "https://docs.provewithryd.xyz/testnet/safrochain"
   },
-  // {
-  //   id: 20,
-  //   title: "🟢Selfchain-Mainnet",
-  //   des: "Modular, intent-centric Layer 1 with keyless MPC-TSS/AA wallets for seamless and secure multi-chain Web3 access.",
-  //   img: "/selfchain-wp.jpg",
-  //   iconLists: ["/selfchain-icon.png"],
-  //   stake: "https://explorer.provewithryd.xyz/selfchain-mainnet/staking/selfvaloper1ru06lwkcgznfnpa70a9l5dsp0mjvfeyzyjs0ct",
-  //   docs: "https://docs.provewithryd.xyz/mainnet/selfchain"
-  // },
   {
-    id: 21,
     title: "🔴TacChain-Testnet[OFFLINE]",
-    des: "Running node on TacChain, an EVM-compatible network extension for TON, enabling seamless dApp access via Telegram and TON wallets.",
-    img: "/tacchain-wp.jpg",
     iconLists: ["/tacchain-icon.jpg"],
     stake: "https://explorer.provewithryd.xyz/tacchain-testnet/staking/tacvaloper1js04l9w3572ha6qgrmc28a66yedmumqk2ufvu5",
     docs: "https://docs.provewithryd.xyz/testnet/tacchain"
   },
   {
-    id: 22,
     title: "🟢Warden-Testnet",
-    des: "Running validator node for Warden, a modular security and observability layer for Cosmos-based blockchains.",
-    img: "/warden-wp.webp",
     iconLists: ["/warden-icon.png"],
     stake: "https://explorer.provewithryd.xyz/warden-testnet/staking/wardenvaloper1u04q7zpxkz7zdj0vs9nduufpm03vu80athlnr0",
     docs: "https://docs.provewithryd.xyz/testnet/warden"
   },
   {
-    id: 23,
     title: "🟢XOS-Testnet",
-    des: "Operating XOS node to support its cross-chain liquidity aggregation hub, enabling low-cost, high-speed swaps across EVM and non-EVM chains.",
-    img: "/xos-wp.jpg",
     iconLists: ["/xos-icon.webp"],
     stake: "https://explorer.provewithryd.xyz/xos-testnet/staking/cosmosvaloper13eygg45ulkjlexyqyt3hu57m87suu329snyru9",
     docs: "https://docs.provewithryd.xyz/testnet/xos"
   },
   {
-    id: 24,
     title: "🟢Zigchain-Testnet",
-    des: "Running validator on ZIGChain, a Layer 1 blockchain designed for inclusive financial access through modular wealth-generation protocols.",
-    img: "/zigchain-wp.jpg",
     iconLists: ["/zigchain-icon.jpg"],
     stake: "https://explorer.provewithryd.xyz/zigchain-testnet/staking/zigvaloper1pjrjnkyunr8e8jrkgrzg4m64wp5tqzyeuf75yj",
     docs: "https://docs.provewithryd.xyz/testnet/zigchain"
   },
-  // {
-  //   id: 25,
-  //   title: "🟢Quicksilver-Mainnet",
-  //   des: "Running validator on ZIGChain, a Layer 1 blockchain designed for inclusive financial access through modular wealth-generation protocols.",
-  //   img: "/zigchain-wp.jpg",
-  //   iconLists: ["/quicksilver.webp"],
-  //   stake: "https://explorer.provewithryd.xyz/quicksilver-mainnet/staking/quickvaloper18zpmlj08q43rpxacekhst4cnkxegsc53ptcewx",
-  //   docs: "#"
-  // },
   {
-    id: 26,
-    title: "🟢TerraLuna-Mainnet",
-    des: "Running validator on ZIGChain, a Layer 1 blockchain designed for inclusive financial access through modular wealth-generation protocols.",
-    img: "/zigchain-wp.jpg",
-    iconLists: ["/terra-luna.png"],
-    stake: "https://explorer.provewithryd.xyz/terraluna-mainnet/staking/terravaloper1y99dhap8kd87wnsuepna22jgwfgdmj077jag97",
-    docs: "#"
-  },
-  // {
-  //   id: 27,
-  //   title: "🟢Pryzm-Mainnet",
-  //   des: "Running validator on ZIGChain, a Layer 1 blockchain designed for inclusive financial access through modular wealth-generation protocols.",
-  //   img: "/zigchain-wp.jpg",
-  //   iconLists: ["/pryzm.svg"],
-  //   stake: "https://explorer.provewithryd.xyz/pryzm-mainnet/staking/pryzmvaloper1zx3wjlrkhr5ch9ftnhvl3k4fxxw9zls8x3naf4",
-  //   docs: "#"
-  // }
-  {
-    id: 28,
     title: "🟢TerraClassic-Mainnet",
-    des: "Running validator on ZIGChain, a Layer 1 blockchain designed for inclusive financial access through modular wealth-generation protocols.",
-    img: "/zigchain-wp.jpg",
     iconLists: ["/terra-classic.png"],
     stake: "https://explorer.provewithryd.xyz/terraclassic-mainnet/staking/terravaloper1y99dhap8kd87wnsuepna22jgwfgdmj077jag97",
     docs: "#"
   },
   {
-    id: 29,
     title: "🟢Hippo Protocol-Mainnet",
-    des: "Running validator on ZIGChain, a Layer 1 blockchain designed for inclusive financial access through modular wealth-generation protocols.",
-    img: "/zigchain-wp.jpg",
     iconLists: ["/hippo.png"],
     stake: "https://explorer.provewithryd.xyz/hippo-mainnet/staking/hippovaloper1aeyautdguat2y8nq66qm2pxg6ah70c8lptvnca",
     docs: "https://docs.provewithryd.xyz/mainnet/hippo-protocol"
   },
   {
-    id: 30,
-    title: "🟢Kopi-Mainnet",
-    des: "Running validator on ZIGChain, a Layer 1 blockchain designed for inclusive financial access through modular wealth-generation protocols.",
-    img: "/zigchain-wp.jpg",
-    iconLists: ["/kopi.jpg"],
-    stake: "https://explorer.provewithryd.xyz/kopi-mainnet/staking/kopivaloper13zd3cpts38wucsnv9aaw8jkj9yfudrdhvc5rl0",
-    docs: "https://docs.provewithryd.xyz/mainnet/kopi"
+    title: "🟢Pryzm-Mainnet",
+    iconLists: ["/pryzm.png"],
+    stake: "https://explorer.provewithryd.xyz/pryzm-mainnet/staking/pryzmvaloper16wx6wx5jzm52ygcpgysnknear5dy7kmd9kdph2",
+    docs: "https://docs.provewithryd.xyz/mainnet/pryzm"
   }
 ];
 
