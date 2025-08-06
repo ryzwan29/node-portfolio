@@ -206,12 +206,6 @@ export const projects = [
     docs: "https://docs.provewithryd.xyz/testnet/zigchain"
   },
   {
-    title: "🟢TerraClassic-Mainnet",
-    iconLists: ["/terra-classic.png"],
-    stake: "https://explorer.provewithryd.xyz/terraclassic-mainnet/staking/terravaloper1y99dhap8kd87wnsuepna22jgwfgdmj077jag97",
-    docs: "#"
-  },
-  {
     title: "🟢Hippo Protocol-Mainnet",
     iconLists: ["/hippo.png"],
     stake: "https://explorer.provewithryd.xyz/hippo-mainnet/staking/hippovaloper1aeyautdguat2y8nq66qm2pxg6ah70c8lptvnca",
@@ -222,6 +216,30 @@ export const projects = [
     iconLists: ["/pryzm.png"],
     stake: "https://explorer.provewithryd.xyz/pryzm-mainnet/staking/pryzmvaloper16wx6wx5jzm52ygcpgysnknear5dy7kmd9kdph2",
     docs: "https://docs.provewithryd.xyz/mainnet/pryzm"
+  },
+  {
+    title: "🟢BitBadges-Mainnet",
+    iconLists: ["/bitbadges.jpg"],
+    stake: "https://explorer.provewithryd.xyz/bitbadges-mainnet/staking/bbvaloper1gnty0dnfgq8lgluaselsfzddgjlufepspvlx30",
+    docs: "https://docs.provewithryd.xyz/mainnet/bitbadges"
+  },
+  {
+    title: "🟢BitSong-Mainnet",
+    iconLists: ["/bitsong.png"],
+    stake: "https://explorer.provewithryd.xyz/bitsong-mainnet/staking/bitsongvaloper16m45lpym2dgehn08vyqn69u9x9ceg76vv2wpwn",
+    docs: "https://docs.provewithryd.xyz/mainnet/bitsong"
+  },
+  {
+    title: "🟢Jackal-Mainnet",
+    iconLists: ["/jackal.svg"],
+    stake: "https://explorer.provewithryd.xyz/jackal-mainnet/staking/jklvaloper1jfd8vgz57prmexdz3q4wz09kqhjzn54fn6g9tk",
+    docs: "https://docs.provewithryd.xyz/mainnet/jackal"
+  },
+  {
+    title: "🟢Omniflix-Mainnet",
+    iconLists: ["/omniflix.webp"],
+    stake: "https://explorer.provewithryd.xyz/omniflix-mainnet/staking/omniflixvaloper12kak8wr2zj2dhvc0ezvdpj5lntehse9vv3jtfx",
+    docs: "https://docs.provewithryd.xyz/mainnet/omniflix"
   }
 ];
 
