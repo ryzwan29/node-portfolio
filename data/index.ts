@@ -240,6 +240,12 @@ export const projects = [
     iconLists: ["/omniflix.webp"],
     stake: "https://explorer.provewithryd.xyz/omniflix-mainnet/staking/omniflixvaloper12kak8wr2zj2dhvc0ezvdpj5lntehse9vv3jtfx",
     docs: "https://docs.provewithryd.xyz/mainnet/omniflix"
+  },
+  {
+    title: "🟢DungeonChain-Mainnet",
+    iconLists: ["/dungeon.png"],
+    stake: "https://explorer.provewithryd.xyz/dungeon-mainnet/staking/dungeonvaloper108a82xy8ff9c6aw72rxs56yendq6spdvs88d8s",
+    docs: "https://docs.provewithryd.xyz/mainnet/dungeon"
   }
 ];
 
