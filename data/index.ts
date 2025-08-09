@@ -110,7 +110,7 @@ export const projects = [
     docs: "https://docs.provewithryd.xyz/testnet/coretensor"
   },
   {
-    title: "🟢Cysic",
+    title: "🟢Cysic-Testnet",
     iconLists: ["/cysic-icon.png"],
     stake: "#",
     docs: "https://docs.provewithryd.xyz/testnet/cysic"
