@@ -98,7 +98,7 @@ export const projects = [
     docs: "https://docs.provewithryd.xyz/mainnet/axone"
   },
   {
-    title: "🟢Aztec Labs",
+    title: "🟢Aztec Labs-Testnet",
     iconLists: ["/aztec-icon.webp"],
     stake: "#",
     docs: "https://docs.provewithryd.xyz/testnet/aztec"
