@@ -6,6 +6,7 @@ export const navItems = [
   { name: "Explorer", link: "https://explorer.provewithryd.xyz" },
   { name: "Monitoring", link: "https://monitoring.provewithryd.xyz" },
   { name: "Documentation", link: "https://docs.provewithryd.xyz" },
+  { name: "Restake", link: "https://restake.provewithryd.xyz" }
 ];
 
 export const gridItems = [
@@ -228,12 +229,6 @@ export const projects = [
     iconLists: ["/bitsong.png"],
     stake: "https://explorer.provewithryd.xyz/bitsong-mainnet/staking/bitsongvaloper16m45lpym2dgehn08vyqn69u9x9ceg76vv2wpwn",
     docs: "https://docs.provewithryd.xyz/mainnet/bitsong"
-  },
-  {
-    title: "🟢Jackal-Mainnet",
-    iconLists: ["/jackal.svg"],
-    stake: "https://explorer.provewithryd.xyz/jackal-mainnet/staking/jklvaloper1jfd8vgz57prmexdz3q4wz09kqhjzn54fn6g9tk",
-    docs: "https://docs.provewithryd.xyz/mainnet/jackal"
   },
   {
     title: "🟢Omniflix-Mainnet",
