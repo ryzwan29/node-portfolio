@@ -241,6 +241,18 @@ export const projects = [
     iconLists: ["/dungeon.png"],
     stake: "https://explorer.provewithryd.xyz/dungeon-mainnet/staking/dungeonvaloper108a82xy8ff9c6aw72rxs56yendq6spdvs88d8s",
     docs: "https://docs.provewithryd.xyz/mainnet/dungeon"
+  },
+  {
+    title: "🟢Symphony-Mainnet",
+    iconLists: ["/symphony.jpeg"],
+    stake: "https://explorer.provewithryd.xyz/symphony-mainnet/staking/symphonyvaloper1uqmr2av6vxgh7hmqez2lugcfmj9fjpf2t3lvsk",
+    docs: "https://docs.provewithryd.xyz/mainnet/symphony"
+  },
+  {
+    title: "🟢Sunrise-Mainnet",
+    iconLists: ["/sunrise.png"],
+    //stake: "https://explorer.provewithryd.xyz/",
+    docs: "https://docs.provewithryd.xyz/mainnet/sunrise"
   }
 ];
 
