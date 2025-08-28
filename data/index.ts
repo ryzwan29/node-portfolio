@@ -212,12 +212,12 @@ export const projects = [
     stake: "https://explorer.provewithryd.xyz/hippo-mainnet/staking/hippovaloper1aeyautdguat2y8nq66qm2pxg6ah70c8lptvnca",
     docs: "https://docs.provewithryd.xyz/mainnet/hippo-protocol"
   },
-  {
-    title: "🟢Pryzm-Mainnet",
-    iconLists: ["/pryzm.png"],
-    stake: "https://explorer.provewithryd.xyz/pryzm-mainnet/staking/pryzmvaloper16wx6wx5jzm52ygcpgysnknear5dy7kmd9kdph2",
-    docs: "https://docs.provewithryd.xyz/mainnet/pryzm"
-  },
+  // {
+  //   title: "🟢Pryzm-Mainnet",
+  //   iconLists: ["/pryzm.png"],
+  //   stake: "https://explorer.provewithryd.xyz/pryzm-mainnet/staking/pryzmvaloper16wx6wx5jzm52ygcpgysnknear5dy7kmd9kdph2",
+  //   docs: "https://docs.provewithryd.xyz/mainnet/pryzm"
+  // },
   {
     title: "🟢BitBadges-Mainnet",
     iconLists: ["/bitbadges.jpg"],
@@ -251,8 +251,14 @@ export const projects = [
   {
     title: "🟢Sunrise-Mainnet",
     iconLists: ["/sunrise.png"],
-    //stake: "https://explorer.provewithryd.xyz/",
+    stake: "https://explorer.provewithryd.xyz/sunrise-mainnet/staking/",
     docs: "https://docs.provewithryd.xyz/mainnet/sunrise"
+  },
+  {
+    title: "🟢Paxi-Mainnet",
+    iconLists: ["/paxi.png"],
+    stake: "https://explorer.provewithryd.xyz/paxi-mainnet/staking/paxivaloper1xprvfatqvydpnvdkwaf0gm88rf4q86s253yn9s",
+    docs: "https://docs.provewithryd.xyz/mainnet/paxi"
   }
 ];
 
