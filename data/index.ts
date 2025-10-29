@@ -75,7 +75,7 @@ export const gridItems = [
 
 export const projects = [
   {
-    title: "🟢0G Labs-Testnet",
+    title: "🔴0G Labs-Testnet[END]",
     iconLists: ["/0g-icon.jpeg"],
     stake: "https://stake.astrostake.xyz/0g-labs-galileo/validators/0x7d6668B1480Df6725A8Ae06aC56B81b9F821438d",
     docs: "https://docs.provewithryd.xyz/testnet/0g-labs"
@@ -116,12 +116,12 @@ export const projects = [
     stake: "#",
     docs: "https://docs.provewithryd.xyz/testnet/cysic"
   },
-  {
-    title: "🟢Dhealth-Mainnet",
-    iconLists: ["/dhealth-icon.png"],
-    stake: "https://explorer.provewithryd.xyz/dhealth-mainnet/staking/dhvaloper1yt0t49ykx2yc0ln9ywmnq2mfd69upvx97u4kpl",
-    docs: "https://docs.provewithryd.xyz/mainnet/dhealth"
-  },
+  // {
+  //   title: "🟢Dhealth-Mainnet",
+  //   iconLists: ["/dhealth-icon.png"],
+  //   stake: "https://explorer.provewithryd.xyz/dhealth-mainnet/staking/dhvaloper1yt0t49ykx2yc0ln9ywmnq2mfd69upvx97u4kpl",
+  //   docs: "https://docs.provewithryd.xyz/mainnet/dhealth"
+  // },
   {
     title: "🔴Dill-Testnet[END]",
     iconLists: ["/dill-icon.png"],
@@ -159,7 +159,7 @@ export const projects = [
     docs: "https://docs.provewithryd.xyz/mainnet/initverse"
   },
   {
-    title: "🟢Intento-Testnet",
+    title: "🔴Intento-Testnet[END]",
     iconLists: ["/intento-icon.jpg"],
     stake: "https://explorer.provewithryd.xyz/intento-testnet/staking/intovaloper1rc6rv5hnvrp5k6s2pzwtyvlqpah5yjph2j9wer",
     docs: "https://docs.provewithryd.xyz/testnet/intento"
@@ -179,23 +179,23 @@ export const projects = [
   {
     title: "🟢Safrochain-Testnet",
     iconLists: ["/safrochain-icon.jpg"],
-    stake: "https://explorer.provewithryd.xyz/safrochain-testnet/staking/addr_safrovaloper17u7gafg2yxe8jt867we8ymxwfx4dgkghw9ewh9",
+    stake: "https://explorer.provewithryd.xyz/safrochain-testnet/staking/addr_safrovaloper1n9h75ynnm7hekkvtp2w2rkddqkfzkkftpfq7ed",
     docs: "https://docs.provewithryd.xyz/testnet/safrochain"
   },
   {
-    title: "🔴TacChain-Testnet[OFFLINE]",
+    title: "🔴TacChain-Testnet[END]",
     iconLists: ["/tacchain-icon.jpg"],
     stake: "https://explorer.provewithryd.xyz/tacchain-testnet/staking/tacvaloper1js04l9w3572ha6qgrmc28a66yedmumqk2ufvu5",
     docs: "https://docs.provewithryd.xyz/testnet/tacchain"
   },
   {
-    title: "🟢Warden-Testnet",
+    title: "🔴Warden-Testnet[OFFLINE]",
     iconLists: ["/warden-icon.png"],
     stake: "https://explorer.provewithryd.xyz/warden-testnet/staking/wardenvaloper1u04q7zpxkz7zdj0vs9nduufpm03vu80athlnr0",
     docs: "https://docs.provewithryd.xyz/testnet/warden"
   },
   {
-    title: "🟢XOS-Testnet",
+    title: "🔴XOS-Testnet[END]",
     iconLists: ["/xos-icon.webp"],
     stake: "https://explorer.provewithryd.xyz/xos-testnet/staking/cosmosvaloper13eygg45ulkjlexyqyt3hu57m87suu329snyru9",
     docs: "https://docs.provewithryd.xyz/testnet/xos"
@@ -224,41 +224,53 @@ export const projects = [
     stake: "https://explorer.provewithryd.xyz/bitbadges-mainnet/staking/bbvaloper1gnty0dnfgq8lgluaselsfzddgjlufepspvlx30",
     docs: "https://docs.provewithryd.xyz/mainnet/bitbadges"
   },
-  {
-    title: "🟢BitSong-Mainnet",
-    iconLists: ["/bitsong.png"],
-    stake: "https://explorer.provewithryd.xyz/bitsong-mainnet/staking/bitsongvaloper16m45lpym2dgehn08vyqn69u9x9ceg76vv2wpwn",
-    docs: "https://docs.provewithryd.xyz/mainnet/bitsong"
-  },
-  {
-    title: "🟢Omniflix-Mainnet",
-    iconLists: ["/omniflix.webp"],
-    stake: "https://explorer.provewithryd.xyz/omniflix-mainnet/staking/omniflixvaloper12kak8wr2zj2dhvc0ezvdpj5lntehse9vv3jtfx",
-    docs: "https://docs.provewithryd.xyz/mainnet/omniflix"
-  },
+  // {
+  //   title: "🟢BitSong-Mainnet",
+  //   iconLists: ["/bitsong.png"],
+  //   stake: "https://explorer.provewithryd.xyz/bitsong-mainnet/staking/bitsongvaloper16m45lpym2dgehn08vyqn69u9x9ceg76vv2wpwn",
+  //   docs: "https://docs.provewithryd.xyz/mainnet/bitsong"
+  // },
+  // {
+  //   title: "🟢Omniflix-Mainnet",
+  //   iconLists: ["/omniflix.webp"],
+  //   stake: "https://explorer.provewithryd.xyz/omniflix-mainnet/staking/omniflixvaloper12kak8wr2zj2dhvc0ezvdpj5lntehse9vv3jtfx",
+  //   docs: "https://docs.provewithryd.xyz/mainnet/omniflix"
+  // },
   {
     title: "🟢DungeonChain-Mainnet",
     iconLists: ["/dungeon.png"],
     stake: "https://explorer.provewithryd.xyz/dungeon-mainnet/staking/dungeonvaloper108a82xy8ff9c6aw72rxs56yendq6spdvs88d8s",
     docs: "https://docs.provewithryd.xyz/mainnet/dungeon"
   },
-  {
-    title: "🟢Symphony-Mainnet",
-    iconLists: ["/symphony.jpeg"],
-    stake: "https://explorer.provewithryd.xyz/symphony-mainnet/staking/symphonyvaloper1uqmr2av6vxgh7hmqez2lugcfmj9fjpf2t3lvsk",
-    docs: "https://docs.provewithryd.xyz/mainnet/symphony"
-  },
-  {
-    title: "🟢Sunrise-Mainnet",
-    iconLists: ["/sunrise.png"],
-    stake: "https://explorer.provewithryd.xyz/sunrise-mainnet/staking/",
-    docs: "https://docs.provewithryd.xyz/mainnet/sunrise"
-  },
+  // {
+  //   title: "🟢Symphony-Mainnet",
+  //   iconLists: ["/symphony.jpeg"],
+  //   stake: "https://explorer.provewithryd.xyz/symphony-mainnet/staking/symphonyvaloper1uqmr2av6vxgh7hmqez2lugcfmj9fjpf2t3lvsk",
+  //   docs: "https://docs.provewithryd.xyz/mainnet/symphony"
+  // },
+  // {
+  //   title: "🟢Sunrise-Mainnet",
+  //   iconLists: ["/sunrise.png"],
+  //   stake: "https://explorer.provewithryd.xyz/sunrise-mainnet/staking/",
+  //   docs: "https://docs.provewithryd.xyz/mainnet/sunrise"
+  // },
   {
     title: "🟢Paxi-Mainnet",
     iconLists: ["/paxi.png"],
     stake: "https://explorer.provewithryd.xyz/paxi-mainnet/staking/paxivaloper1xprvfatqvydpnvdkwaf0gm88rf4q86s253yn9s",
     docs: "https://docs.provewithryd.xyz/mainnet/paxi"
+  },
+  {
+    title: "🟢Regen-Mainnet",
+    iconLists: ["/regen.png"],
+    stake: "https://explorer.provewithryd.xyz/regen-mainnet/staking/regenvaloper1zcll4k60y9v6edkht0xadexl62kjew36ezy799",
+    docs: "https://docs.provewithryd.xyz/mainnet/regen"
+  },
+  {
+    title: "🟢Kiichain-Testnet",
+    iconLists: ["/kiichain.png"],
+    stake: "https://explorer.provewithryd.xyz/kiichain-testnet/staking/",
+    docs: "https://docs.provewithryd.xyz/testnet/kiichain"
   }
 ];
 
