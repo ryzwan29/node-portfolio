@@ -269,8 +269,14 @@ export const projects = [
   {
     title: "🟢Kiichain-Testnet",
     iconLists: ["/kiichain.png"],
-    stake: "https://explorer.provewithryd.xyz/kiichain-testnet/staking/",
+    stake: "https://explorer.provewithryd.xyz/kiichain-testnet/staking/kiivaloper1mlqcj3eq4dgqe826pn0w35juzwgjrdd4nf6avs",
     docs: "https://docs.provewithryd.xyz/testnet/kiichain"
+  },
+  {
+    title: "🟢Helios-Testnet",
+    iconLists: ["/helios.jpg"],
+    stake: "https://portal.helioschain.network/validators/0x060CCc6a55679b71154b0aea8FACAB3894e5b483",
+    docs: "https://docs.provewithryd.xyz/testnet/helios"
   }
 ];
 
@@ -371,7 +377,7 @@ export const workExperience = [
   {
     id: 2,
     title: "Reliable Node Operations",
-    desc: "Ensuring 99.99% uptime and efficient node operations for seamless blockchain participation.",
+    desc: "Ensuring 99% uptime and efficient node operations for seamless blockchain participation.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
