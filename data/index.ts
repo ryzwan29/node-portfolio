@@ -277,6 +277,12 @@ export const projects = [
     iconLists: ["/helios.jpg"],
     stake: "https://portal.helioschain.network/validators/0x060CCc6a55679b71154b0aea8FACAB3894e5b483",
     docs: "https://docs.provewithryd.xyz/testnet/helios"
+  },
+  {
+    title: "🟢Stable-Testnet",
+    iconLists: ["/stable.png"],
+    stake: "https://explorer.provewithryd.xyz/stable-testnet/",
+    docs: "https://docs.provewithryd.xyz/testnet/stable"
   }
 ];
 
