@@ -283,6 +283,12 @@ export const projects = [
     iconLists: ["/stable.png"],
     stake: "https://explorer.provewithryd.xyz/stable-testnet/",
     docs: "https://docs.provewithryd.xyz/testnet/stable"
+  },
+  {
+    title: "🟢Stratos-Mainnet",
+    iconLists: ["/stratos.png"],
+    stake: "https://explorer.provewithryd.xyz/stratos-mainnet/staking/stvaloper1l2l7g44ezemsu3356tuvk46jqaj46tqkj4rpq4",
+    docs: "https://docs.provewithryd.xyz/mainnet/stratos/"
   }
 ];
 
