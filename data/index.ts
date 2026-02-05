@@ -77,13 +77,13 @@ export const projects = [
   {
     title: "🔴0G Labs-Testnet[END]",
     iconLists: ["/0g-icon.jpeg"],
-    stake: "https://stake.astrostake.xyz/0g-labs-galileo/validators/0x7d6668B1480Df6725A8Ae06aC56B81b9F821438d",
+    stake: "#",
     docs: "https://docs.provewithryd.xyz/testnet/0g-labs"
   },
   {
-    title: "🟢Airchain-Testnet",
+    title: "🔴Airchain-Testnet[END]",
     iconLists: ["/airchain.ico"],
-    stake: "https://explorer.provewithryd.xyz/airchain-testnet/staking/airvaloper1awfqvv5z7kzaj6qh7v4hjyev87e52pkv2gumjt",
+    stake: "#",
     docs: "https://docs.provewithryd.xyz/testnet/airchain"
   },
   {
@@ -111,7 +111,7 @@ export const projects = [
     docs: "https://docs.provewithryd.xyz/testnet/coretensor"
   },
   {
-    title: "🟢Cysic-Testnet",
+    title: "🔴Cysic-Testnet[END]",
     iconLists: ["/cysic-icon.png"],
     stake: "#",
     docs: "https://docs.provewithryd.xyz/testnet/cysic"
@@ -161,7 +161,7 @@ export const projects = [
   {
     title: "🔴Intento-Testnet[END]",
     iconLists: ["/intento-icon.jpg"],
-    stake: "https://explorer.provewithryd.xyz/intento-testnet/staking/intovaloper1rc6rv5hnvrp5k6s2pzwtyvlqpah5yjph2j9wer",
+    stake: "#",
     docs: "https://docs.provewithryd.xyz/testnet/intento"
   },
   {
@@ -185,45 +185,45 @@ export const projects = [
   {
     title: "🔴TacChain-Testnet[END]",
     iconLists: ["/tacchain-icon.jpg"],
-    stake: "https://explorer.provewithryd.xyz/tacchain-testnet/staking/tacvaloper1js04l9w3572ha6qgrmc28a66yedmumqk2ufvu5",
+    stake: "#",
     docs: "https://docs.provewithryd.xyz/testnet/tacchain"
   },
   {
-    title: "🔴Warden-Testnet[OFFLINE]",
+    title: "🔴Warden-Testnet[END]",
     iconLists: ["/warden-icon.png"],
-    stake: "https://explorer.provewithryd.xyz/warden-testnet/staking/wardenvaloper1u04q7zpxkz7zdj0vs9nduufpm03vu80athlnr0",
+    stake: "#",
     docs: "https://docs.provewithryd.xyz/testnet/warden"
   },
   {
     title: "🔴XOS-Testnet[END]",
     iconLists: ["/xos-icon.webp"],
-    stake: "https://explorer.provewithryd.xyz/xos-testnet/staking/cosmosvaloper13eygg45ulkjlexyqyt3hu57m87suu329snyru9",
+    stake: "#",
     docs: "https://docs.provewithryd.xyz/testnet/xos"
   },
   {
-    title: "🟢Zigchain-Testnet",
+    title: "🔴Zigchain-Testnet[END]",
     iconLists: ["/zigchain-icon.jpg"],
-    stake: "https://explorer.provewithryd.xyz/zigchain-testnet/staking/zigvaloper1pjrjnkyunr8e8jrkgrzg4m64wp5tqzyeuf75yj",
+    stake: "#",
     docs: "https://docs.provewithryd.xyz/testnet/zigchain"
   },
-  {
-    title: "🟢Hippo Protocol-Mainnet",
-    iconLists: ["/hippo.png"],
-    stake: "https://explorer.provewithryd.xyz/hippo-mainnet/staking/hippovaloper1aeyautdguat2y8nq66qm2pxg6ah70c8lptvnca",
-    docs: "https://docs.provewithryd.xyz/mainnet/hippo-protocol"
-  },
+  // {
+  //   title: "🟢Hippo Protocol-Mainnet",
+  //   iconLists: ["/hippo.png"],
+  //   stake: "https://explorer.provewithryd.xyz/hippo-mainnet/staking/hippovaloper1aeyautdguat2y8nq66qm2pxg6ah70c8lptvnca",
+  //   docs: "https://docs.provewithryd.xyz/mainnet/hippo-protocol"
+  // },
   // {
   //   title: "🟢Pryzm-Mainnet",
   //   iconLists: ["/pryzm.png"],
   //   stake: "https://explorer.provewithryd.xyz/pryzm-mainnet/staking/pryzmvaloper16wx6wx5jzm52ygcpgysnknear5dy7kmd9kdph2",
   //   docs: "https://docs.provewithryd.xyz/mainnet/pryzm"
   // },
-  {
-    title: "🟢BitBadges-Mainnet",
-    iconLists: ["/bitbadges.jpg"],
-    stake: "https://explorer.provewithryd.xyz/bitbadges-mainnet/staking/bbvaloper1gnty0dnfgq8lgluaselsfzddgjlufepspvlx30",
-    docs: "https://docs.provewithryd.xyz/mainnet/bitbadges"
-  },
+  // {
+  //   title: "🟢BitBadges-Mainnet",
+  //   iconLists: ["/bitbadges.jpg"],
+  //   stake: "https://explorer.provewithryd.xyz/bitbadges-mainnet/staking/bbvaloper1gnty0dnfgq8lgluaselsfzddgjlufepspvlx30",
+  //   docs: "https://docs.provewithryd.xyz/mainnet/bitbadges"
+  // },
   // {
   //   title: "🟢BitSong-Mainnet",
   //   iconLists: ["/bitsong.png"],
@@ -254,12 +254,12 @@ export const projects = [
   //   stake: "https://explorer.provewithryd.xyz/sunrise-mainnet/staking/",
   //   docs: "https://docs.provewithryd.xyz/mainnet/sunrise"
   // },
-  {
-    title: "🟢Paxi-Mainnet",
-    iconLists: ["/paxi.png"],
-    stake: "https://explorer.provewithryd.xyz/paxi-mainnet/staking/paxivaloper1xprvfatqvydpnvdkwaf0gm88rf4q86s253yn9s",
-    docs: "https://docs.provewithryd.xyz/mainnet/paxi"
-  },
+  // {
+  //   title: "🟢Paxi-Mainnet",
+  //   iconLists: ["/paxi.png"],
+  //   stake: "https://explorer.provewithryd.xyz/paxi-mainnet/staking/paxivaloper1xprvfatqvydpnvdkwaf0gm88rf4q86s253yn9s",
+  //   docs: "https://docs.provewithryd.xyz/mainnet/paxi"
+  // },
   {
     title: "🟢Regen-Mainnet",
     iconLists: ["/regen.png"],
@@ -273,23 +273,41 @@ export const projects = [
     docs: "https://docs.provewithryd.xyz/testnet/kiichain"
   },
   {
-    title: "🟢Helios-Testnet",
+    title: "🔴Helios-Testnet[END]",
     iconLists: ["/helios.jpg"],
-    stake: "https://portal.helioschain.network/validators/0x060CCc6a55679b71154b0aea8FACAB3894e5b483",
+    stake: "#",
     docs: "https://docs.provewithryd.xyz/testnet/helios"
   },
   {
-    title: "🟢Stable-Testnet",
+    title: "🔴Stable-Testnet[END]",
     iconLists: ["/stable.png"],
-    stake: "https://explorer.provewithryd.xyz/stable-testnet/",
+    stake: "#",
     docs: "https://docs.provewithryd.xyz/testnet/stable"
   },
   {
-    title: "🟢Stratos-Mainnet",
-    iconLists: ["/stratos.png"],
-    stake: "https://explorer.provewithryd.xyz/stratos-mainnet/staking/stvaloper1l2l7g44ezemsu3356tuvk46jqaj46tqkj4rpq4",
-    docs: "https://docs.provewithryd.xyz/mainnet/stratos/"
+    title: "🟢RepublicAI-Testnet",
+    iconLists: ["/republicai.jpg"],
+    stake: "https://explorer.provewithryd.xyz/republicai-testnet/staking/raivaloper1jnlw7aex7l7uwpjxx9e04yfj9ec0dt9utxzm6z",
+    docs: "https://docs.provewithryd.xyz/testnet/republicai"
+  },
+  {
+    title: "🟢Pushchain-Testnet",
+    iconLists: ["/pushchain.jpg"],
+    stake: "https://explorer.provewithryd.xyz/pushchain-testnet/staking/pushvaloper1ns0pn9z25cksgw55cl9rr72gqav74xpetudqpx",
+    docs: "https://docs.provewithryd.xyz/testnet/pushchain"
+  },
+  {
+    title: "🟢Lumen-Mainnet",
+    iconLists: ["/lumen.png"],
+    stake: "https://explorer.provewithryd.xyz/lumen-mainnet/staking/lmnvaloper1dj0s05mfxjqg36qwxapseqa0x2ta4tytplpqtf",
+    docs: "https://docs.provewithryd.xyz/mainnet/lumen"
   }
+  // {
+  //   title: "🟢Stratos-Mainnet",
+  //   iconLists: ["/stratos.png"],
+  //   stake: "https://explorer.provewithryd.xyz/stratos-mainnet/staking/stvaloper1l2l7g44ezemsu3356tuvk46jqaj46tqkj4rpq4",
+  //   docs: "https://docs.provewithryd.xyz/mainnet/stratos/"
+  // }
 ];
 
 
