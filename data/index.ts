@@ -301,6 +301,12 @@ export const projects = [
     iconLists: ["/lumen.png"],
     stake: "https://explorer.provewithryd.xyz/lumen-mainnet/staking/lmnvaloper1dj0s05mfxjqg36qwxapseqa0x2ta4tytplpqtf",
     docs: "https://docs.provewithryd.xyz/mainnet/lumen"
+  },
+  {
+    title: "🟢Zigchain-Mainnet",
+    iconLists: ["/zigchain-icon.jpg"],
+    stake: "https://explorer.provewithryd.xyz/zigchain-mainnet/staking/zigvaloper1pjrjnkyunr8e8jrkgrzg4m64wp5tqzyeuf75yj",
+    docs: "#"
   }
   // {
   //   title: "🟢Stratos-Mainnet",
