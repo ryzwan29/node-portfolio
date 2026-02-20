@@ -303,10 +303,10 @@ export const projects = [
     docs: "https://docs.provewithryd.xyz/mainnet/lumen"
   },
   {
-    title: "🟢Zigchain-Mainnet",
+    title: "Zigchain-Mainnet",
     iconLists: ["/zigchain-icon.jpg"],
-    stake: "https://explorer.provewithryd.xyz/zigchain-mainnet/staking/zigvaloper1pjrjnkyunr8e8jrkgrzg4m64wp5tqzyeuf75yj",
-    docs: "#"
+    stake: "hhttps://explorer.provewithryd.xyz/zigchain-mainnet/staking/zigvaloper1pjrjnkyunr8e8jrkgrzg4m64wp5tqzyeuf75yj",
+    docs: "https://docs.provewithryd.xyz/mainnet/zigchain"
   }
   // {
   //   title: "🟢Stratos-Mainnet",
