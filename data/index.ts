@@ -311,7 +311,7 @@ export const projects = [
   {
     title: "🟢Akash-Mainnet",
     iconLists: ["/akash.png"],
-    stake: "hhttps://explorer.provewithryd.xyz/akash-mainnet/staking/akashvaloper1stth5578c4zejfsjq4zeme329nfa9cr8k3ghff",
+    stake: "https://explorer.provewithryd.xyz/akash-mainnet/staking/akashvaloper1stth5578c4zejfsjq4zeme329nfa9cr8k3ghff",
     docs: "https://docs.provewithryd.xyz/mainnet/akash"
   }
   // {
