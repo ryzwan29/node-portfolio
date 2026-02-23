@@ -307,6 +307,12 @@ export const projects = [
     iconLists: ["/zigchain-icon.jpg"],
     stake: "hhttps://explorer.provewithryd.xyz/zigchain-mainnet/staking/zigvaloper1pjrjnkyunr8e8jrkgrzg4m64wp5tqzyeuf75yj",
     docs: "https://docs.provewithryd.xyz/mainnet/zigchain"
+  },
+  {
+    title: "🟢Akash-Mainnet",
+    iconLists: ["/akash.png"],
+    stake: "hhttps://explorer.provewithryd.xyz/akash-mainnet/staking/akashvaloper1stth5578c4zejfsjq4zeme329nfa9cr8k3ghff",
+    docs: "https://docs.provewithryd.xyz/mainnet/akash"
   }
   // {
   //   title: "🟢Stratos-Mainnet",
